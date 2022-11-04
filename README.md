@@ -1,2 +1,2 @@
 # Taller HTML
-## Corina Valdez
+## Corina Velez
