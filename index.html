@@ -31,7 +31,8 @@ git add nombre de archivo
             <div class="navbar-brand">
                 <!--la barrita diagonal hace referencia la inicio-->
                <a class="navbar-item" href="/">
-                    <img class="img-logo" src="./res/img/Conservatorio-German.jpg" alt="logo">
+                    <img class="img-logo" src="./res/img/terminadoLogoConser.jpg" alt="logo"
+                    width="100%" height="auto">
                </a>
 
                 <!--para hacer el botoncito del responsive en el celular
@@ -68,29 +69,14 @@ git add nombre de archivo
         </nav>
     </header>
     <main></main>
-    <footer></footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-
-// Get all "navbar-burger" elements
-const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-// Add a click event on each of them
-$navbarBurgers.forEach( el => {
-  el.addEventListener('click', () => {
-
-    // Get the target from the "data-target" attribute
-    const target = el.dataset.target;
-    const $target = document.getElementById(target);
-
-    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-    el.classList.toggle('is-active');
-    $target.classList.toggle('is-active');
-
-  });
-});
-
-});
-    </script>
+    <footer>
+        <div class="content has-text-centered">
+            <p>
+              <strong>Conservatorio</strong> by <a href="https://github.com/Cori57/Taller-html">Corina Valdez</a>. The source code is licensed
+              <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+            </p>
+          </div>
+    </footer>
+   <script src="./res/js/active.js"></script>
 </body>
 </html>
