@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <!--Iniciar Repositorio = pryecto
-    2- AGREFAR ARCHIVOS AL REPOSITORIO, OSEA EL NOMBRE DEL ARCHIVO ESPECIFICO
-git add nombre de archivo
-        Y PARA AGREGAR TODOS
-    git add .
-    3- CREAR UN COMIT
-         añade la última actualización  que se hizo al proyecto
-        git commit -m "que se agregó"
-    4- enviar a girhub
-        git push
-    5. para ver el estado de nuestro proyecto.
-        git status
-    -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller html</title>
-    <link rel="stylesheet" href="./res/css/styles.css">
-    <!--esto llama la libreria de bulma-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <!--link para iconos fontawesome-->
-    <link rel="stylesheet" href="./res/icons/css/all.min.css">
-
-</head>
+<!--el head está en layouts en php
+Todo esto es para seccionar el codigo en comnponentes, porque hay cosasue no se nodifican-->
+<?php include './res/layouts/header.php';?>
 <body>
     <header>
         <!--para crear barra de navegación
@@ -94,6 +70,7 @@ git add nombre de archivo
                 <div class="card-content">
                     <div class="content">
                         Una institución que promueve el arte y la cultura en Guetemala.
+                    
                     </div>
                 </div>
                
@@ -126,14 +103,8 @@ git add nombre de archivo
         </div>
        
     </main>
-    <footer class="footer" mt-4>
-        <div class="content has-text-centered">
-            <p>
-              <strong>Conservatorio</strong> by <a href="https://github.com/Cori57/Taller-html">Corina Valdez</a>. The source code is licensed
-              <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
-            </p>
-          </div>
-    </footer>
+   <!--llamnando a footer que esta en conmponentesn-->
+   <?php include './res/layouts/components/footer.php' ?>
    <script src="./res/js/active.js"></script>
 </body>
 </html>
