@@ -1,6 +1,4 @@
-<?php
-
-echo '<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <!--Iniciar Repositorio = pryecto
@@ -9,7 +7,7 @@ git add nombre de archivo
         Y PARA AGREGAR TODOS
     git add .
     3- CREAR UN COMIT
-         añade la última actualización  que se hizo al proyecto
+        añade la última actualización  que se hizo al proyecto
         git commit -m "que se agregó"
     4- enviar a girhub
         git push
@@ -22,9 +20,8 @@ git add nombre de archivo
     <title>Taller html</title>
     <link rel="stylesheet" href="./res/css/styles.css">
     <!--esto llama la libreria de bulma-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./res/lib/bulma/css/bulma.min.css">
     <!--link para iconos fontawesome-->
-    <link rel="stylesheet" href="./res/icons/css/all.min.css">
+    <link rel="stylesheet" href="./res/lib/icons/css/all.min.css">
 
-</head>';
-?>
+</head>
